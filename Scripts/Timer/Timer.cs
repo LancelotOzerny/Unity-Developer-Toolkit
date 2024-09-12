@@ -18,6 +18,7 @@ namespace UDT.Timer
 
         private void Awake()
         {
+            RemaingTime = time;
             if (startOnAwake)
             {
                 TimerIsPlay = true;
